@@ -1,0 +1,8 @@
+*.swp
+*.swo
+.DS_Store
+lib/impact/*
+lib/weltmeister/*
+psd/*
+weltmeister.html
+tools/*
