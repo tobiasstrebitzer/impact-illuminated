@@ -3,6 +3,12 @@ impact-illuminated
 
 impact.js plugins that integrate box2d and illuminated.js to create some awesome lighting and shadow effects.
 
+### Installation ###
+
+1. copy your impact.js library to lib/impact/
+2. for building, just place your impacts.js tools directory in the root folder, and run
+        $ rake build
+
 ### Documentation ###
 More documentation and installation/integration instructions will follow soon. Until now, just check out the demo.
 
@@ -11,6 +17,7 @@ I've not been getting along with the existing box2d integrations, so i've writte
 
 ### Performance ###
 The demo is running "quite" fine on my machine. By using the lights engine, there are usually 2 game states:
+    
 1. Computing State: When light-blocking objects or lamps are moving, lighting needs to be recomputes every frame.
 2. Resting State: No light-blocking objects or lamps are moving, so there's no recomputing going on.
 
