@@ -7,6 +7,7 @@ impact.js plugins that integrate box2d and illuminated.js to create some awesome
 
 1. copy your impact.js library to lib/impact/
 2. for building, just place your impacts.js tools directory in the root folder, and run
+
         $ rake build
 
 ### Documentation ###
